@@ -1,0 +1,180 @@
+
+body {
+    /* Three margins have been set to 0 so the element will stratch to the top of the page.
+    It makes the same setting to write margin: 0 -> it sets all 4 margins to 0. */
+
+    margin: 0;
+    color: #40514e;
+    text-align: center;
+    font-family: "Merriweather",Helvetica,Arial,serif;
+    line-height: 2;
+
+    
+}
+
+
+h1 {
+  margin: 80px auto 0;;
+  font-size: 5.265rem;
+  /* Font size in 100% (em) is equivalent to the 90px size, but in % it makes
+  it dinamic. Also, when the font-size is dinamic, like % or em, it gets
+  inherited. If the body font-size is 2em, and the element has 3 em, the total
+  font size for the element is 5 em (2+3). To avoid this, the body can have
+  2 em and the elements will have a dinamic font-size is rem (ROOT em) and
+  it will not get inherited (added up with the body font-size).*/
+  font-family: "Sacramento", cursive;
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+  
+}
+
+a {
+  color:#11999E;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:underline;
+  color:#EAF6F6;
+}
+
+hr {
+    border-color: #EAF6F6;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 10%;
+    margin: 100px auto;
+}
+
+
+
+.top-container {
+  background-color: #EAF6F6;
+  position:relative;
+  padding-top: 150px;
+  margin-bottom:305px;
+
+}
+
+
+.bottom-cloud {
+  position:absolute;
+  left:300px;
+  bottom:500px;
+}
+
+.top-cloud {
+  position: absolute;
+  right:300px;
+  top:60px;
+}
+
+.mountain {
+  width:800px;
+  height:600px;
+}
+.profile {
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto;
+}
+.middle-container {
+  margin: 100px 0;
+}
+
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.letsroll{
+  font-family: "Montserrat";
+  color: #66BFBF;
+  font-size: 1.5rem;
+}
+
+
+.credits {
+  padding: 30px 0px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+
+.skill-row {
+  width:50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.imadeveloper {
+  margin-bottom: 1px;
+}
+
+.skills-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-gif{
+  width: 25%;
+  float: right; /* Helps at wrapping a text around an element (image)*/
+  /* "clear" attribute makes the element not wrap around*/
+  margin-left: 30px;
+}
+
+
+.contact-me-margin {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
